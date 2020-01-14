@@ -80,18 +80,15 @@ Here are some of the links that caught our eye past month:
 > practices from Continuous Delivery, we can better manage the risks of
 > releasing changes to Machine Learning applications in a safe and reliable way.
 
-<a href="https://martinfowler.com/articles/cd4ml.html" class="external-link-preview">
-  <section class="elp-content-holder">
-    <div class="elp-description-holder">
-      <h4 class="elp-title">Continuous Delivery for Machine Learning</h4>
-      <div class="elp-description">bio I am a consultant at ThoughtWorks Germany, where I am leading our data and machine learning activities. I enjoy…</div>
-      <div class="elp-link">martinfowler.com</div>
-    </div>
-    <div class="elp-image-holder">
-      <img src="/uploads/images/2019-11-05/continuous-delivery-for-machine-learning.png" />
-    </div>
-  </section>
-</a>
+```dvcLink
+{
+  "href": "https://martinfowler.com/articles/cd4ml.html",
+  "title": "Continuous Delivery for Machine Learning",
+  "desc": "bio I am a consultant at ThoughtWorks Germany, where I am leading our data and machine learning activities. I enjoy…",
+  "link": "martinfowler.com",
+  "heroImg": "/uploads/images/2019-11-05/continuous-delivery-for-machine-learning.png"
+}
+```
 
 - **[The Path to Identity Validation](https://medium.com/signaturit-tech-blog/the-path-to-identity-validation-2-3-4f698b2ffae9)
   by [Víctor Segura](https://medium.com/@victor.segura).**

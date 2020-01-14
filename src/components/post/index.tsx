@@ -17,7 +17,12 @@ import Share from '../share';
 
 import styles from './styles.module.css';
 
-function Post({ html, timeToRead, frontmatter, fields }: IBlogPostData) {
+function Post({
+  timeToRead,
+  frontmatter,
+  fields,
+  rawMarkdownBody
+}: IBlogPostData) {
   const {
     title,
     date,
@@ -101,7 +106,7 @@ function Post({ html, timeToRead, frontmatter, fields }: IBlogPostData) {
         </>
       )}
       <div className={styles.content}>
-        <Markdown html={html} />
+        <Markdown html={rawMarkdownBody} />
       </div>
       {tags && (
         <div className={styles.tags}>
